@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1489412842 source:c:\users\giedr\desktop\mokslai\c ps\1 kursas\2 semestras\simulation\biginteger.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"bigInteger.h"
+
+1489412838 c:\users\giedr\desktop\mokslai\c ps\1 kursas\2 semestras\simulation\biginteger.h
+
+1493028050 source:c:\users\giedr\desktop\mokslai\c ps\1 kursas\2 semestras\simulation\deque.c
+	<stdio.h>
+	<stdlib.h>
+	"deque.h"
+	<assert.h>
+	<stdbool.h>
+
+1492623287 c:\users\giedr\desktop\mokslai\c ps\1 kursas\2 semestras\simulation\deque.h
+	<stdbool.h>
+
+1496674401 source:c:\users\giedr\desktop\mokslai\c ps\1 kursas\2 semestras\simulation\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<math.h>
+	<time.h>
+	"deque.h"
+	"bigInteger.h"
+
