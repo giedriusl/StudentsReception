@@ -120,7 +120,7 @@ FILE* reader()
     fr = fopen("data.txt","r");
     if(fr == NULL)
     {
-        errors(5);
+        errors(1);
     }
     return fr;
 }
@@ -131,18 +131,6 @@ void errors(int err)
     switch(err)
     {
         case 1 :
-            printf("Error occured. Error code : %d. delBeg.", err);
-            break;
-        case 2 :
-            printf("Error occured. Error code : %d. delEnd.", err);
-            break;
-        case 3 :
-            printf("Error occured. Error code : %d. getHead.", err);
-            break;
-        case 4 :
-            printf("Error occured. Error code : %d. getTail.", err);
-            break;
-        case 5 :
             printf("Error occured. Error code : %d",err);
             break;
         default :
